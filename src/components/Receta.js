@@ -84,7 +84,6 @@ const Receta = ({receta}) => {
                             <p>
                                 {detalles.strInstructions}
                             </p>
-                            <img className="img-thumbnail my-4" src={detalles.strDrinkThumb} />
                             <h3>Ingredientes y Cantidades</h3>
                             <ul>
                                 {mostrarIngredientes(detalles)}
